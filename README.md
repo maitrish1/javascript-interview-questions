@@ -892,7 +892,7 @@
     | ----------------------------------------------------- | --------------------------- |
     | It is been available from the beginning of JavaScript | Introduced as part of ES6   |
     | It has function scope or global scope                 | It has block scope          |
-    | Variables will be hoisted                             | Hoisted but not initialized |
+    | Variables will be hoisted, will be undefined          | Hoisted but not initialized, gives reference error |
 
     Let's take an example to see the difference,
 
